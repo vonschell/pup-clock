@@ -40,4 +40,8 @@ var showCurrentTime = function()
       {
         seconds = "0" + seconds;
       }
+
+      // put together the string that displays the time
+
+      var clockTime = hours + ':' + minutes + ':' + seconds + " " + meridian + "!";
 } 
