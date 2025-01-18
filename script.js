@@ -44,4 +44,12 @@ var showCurrentTime = function()
       // put together the string that displays the time
 
       var clockTime = hours + ':' + minutes + ':' + seconds + " " + meridian + "!";
+      clock.innerText = clockTime;
+    };
+    
+    // Getting the clock to increment on its own and change out messages and pictures
+    var updateClock = function() {
+      var time = new Date().getHours();
+      var messageText;
+    
 } 
