@@ -92,4 +92,10 @@ var showCurrentTime = function()
         messageText = "Good afternoon!";
       }
     
-} 
+      console.log(messageText); 
+  timeEventJS.innerText = messageText;
+  lolcatImage.src = image;
+  
+  showCurrentTime();
+};
+updateClock();
